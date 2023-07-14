@@ -22,7 +22,7 @@ public class LoginPage {
 
 		BrowserUtil brUtl = new BrowserUtil();
 
-		WebDriver driver = brUtl.launchBrowser("chrome");
+		WebDriver driver = brUtl.launchBrowser("edge");
 		brUtl.enterURL("https://www.saucedemo.com/");
 		brUtl.getPageTitle();
 		brUtl.getCurrentURL();
