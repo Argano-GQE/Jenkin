@@ -58,7 +58,7 @@ public class BrowserUtil {
 
 			driver.get(url);
 		} else {
-			throw new FrameworkExcepetion("Url should have http(s)");
+			throw new FrameworkExcepetion("Url should have http(s) ");
 		}
 
 	}
