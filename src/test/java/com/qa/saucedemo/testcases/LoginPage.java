@@ -36,7 +36,6 @@ public class LoginPage {
 		eleUtil.doClick(logout);
 		
 		System.out.println("**********----- Login and Logout Successfully-------********");
-		System.out.println("**********----- Latest From Github Updated-------*****Ravi*1111***");
 		brUtl.quitBrowser();
 
 	}
