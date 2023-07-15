@@ -41,7 +41,7 @@ public class BrowserUtil {
 
 		default:
 			System.out.println("Please pass the correct browser->" +":" +browserName);
-			throw new FrameworkExcepetion("Not a Valid Browser");
+			throw new FrameworkExcepetion("Not a Valid Browser.");
 		}
 		
 		return driver;
