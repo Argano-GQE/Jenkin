@@ -36,7 +36,7 @@ public class LoginPage {
 		eleUtil.doClick(logout);
 		
 		System.out.println("**********----- Login and Logout Successfully . @-------********");
-		System.out.println("**********----- Login and Logout Successfully ####. -------********");
+		System.out.println("**********----- Login and Logout Successfully ** End ####. -------********");
 		brUtl.quitBrowser();
 
 	}
